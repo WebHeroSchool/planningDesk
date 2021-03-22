@@ -6,24 +6,47 @@ body {
 .wrapper {
     margin: auto;
     width: 80%;
-    /*border: dashed 1px red;*/
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    /*border: dashed 1px red;*/
 }
 
 .logo {
+    position: relative;
     padding: 40px 0;
-    /*border: dashed 1px red;*/
+    padding-left: 44px;
+    font-family: 'PT Serif', arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.logo__circle {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%
+    opacity: 0.7;
+}
+
+.logo__circle_color_dark-blue {
+    background: #0056EC;
+}
+
+.logo__circle_color_blue {
+    left: 8px;
+    top: 56%;
+    background: #C8DBFB;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    /*border: dashed 1px red;*/
 }
 
 .menu__item {
