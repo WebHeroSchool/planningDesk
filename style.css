@@ -66,7 +66,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 24px;
     color: #000;
     text-decoration: none;  
     transition: opacity 0.5s;
@@ -114,11 +114,11 @@ body {
 }
 
 .main__title {
-    margin: 0 0 40px 0;
+    margin: 0 0 37px 0;
     font-family: 'PT Serif', arial, helvetica, serif, sans-serif;
     font-weight: bold;
     font-size: 66px;
-    line-height: 87px;
+    line-height: 88px;
 }
 
 .main__title-text_highlight {
