@@ -1,26 +1,31 @@
 body { 
     margin: 0;
+    min-width: 1920px;
+    max-height: 1080px;
 }
 
 .wrapper {
     margin: auto;
-    width: 82%;
+    width: 1528px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 127px;
 }
 
 .logo {
     position: relative;
+    width: 190px;
+    height: 35px;
     padding: 40px 0;
 }
 
 .logo__text {
-    padding-left: 65px;
-
+    padding-left: 43px;
+    width: 146px;
+    height: 32px;
     font-family: 'PT Serif', arial, helvetica, sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -29,8 +34,8 @@ body {
 
 .logo__circle {
     position: absolute;
-    left: 21px;
-    top: 50%;
+    left: 0px;
+    top: 49%;
     transform: translateY(-50%);
     width: 28px;
     height: 28px;
@@ -39,22 +44,19 @@ body {
 }
 
 .logo__circle_color_dark-blue {
-    background: #0056EC;
+    background: #0056ec;
 }
 
 .logo__circle_color_blue {
-    left: 26px;
-    top: 56%;
+    left: 8px;
+    top: 52%;
     background: #C8DBFB;
 }
 
-/*МЕНЮ МЕНЮ МЕНЮ*/
 .menu {
     display: flex;
     align-items: center;
-    width: 410px;
-    padding-top: 5px ;
-    padding-left: 28px;
+    width: 382px;
 }
 
 .menu__item {
@@ -63,7 +65,7 @@ body {
     font-family: 'Roboto', arial, helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 21px;
     color: #000;
     text-decoration: none;  
@@ -104,17 +106,15 @@ body {
     width: 100%;
 }
 
-/*ОСНОВНАЯ ЧАСТЬ САЙТА*/
-
 .main {
     position: relative;
-    padding: 106px 63% 200px 25px;
+    padding: 71px 961px 317px 0px;
     background-repeat: no-repeat;
     background-position: top right;
 }
 
 .main__title {
-    margin: 0 0 38px 0;
+    margin: 0 0 40px 0;
     font-family: 'PT Serif', arial, helvetica, serif, sans-serif;
     font-weight: bold;
     font-size: 66px;
@@ -122,11 +122,11 @@ body {
 }
 
 .main__title-text_highlight {
-    background: linear-gradient(#C8DBFB, #FFFFFF);
+    background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 
 .main__description {
-    margin: 0 0 41px 0;
+    margin: 0 0 40px 0;
     max-width: 455px;
     font-family: 'Roboto', arial, helvetica, serif, sans-serif;
     font-weight: 400;
@@ -136,9 +136,8 @@ body {
 
 .img {
     position: absolute;
-    left: 50%;
-    top: 30px;
-
+    left: 758px;
+    top: 0px;
 }
 
 .main__button {
@@ -147,7 +146,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    padding: 18px 30px 19px 22px;
+    padding: 18px 33px 18px 22px;
     background: #0056EC;
     color: #fff;
     text-decoration: none;
@@ -157,6 +156,39 @@ body {
 
 .main__button:hover {
     opacity: .5;
+}
+
+.points__circle1 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #C8DBFB;
+    bottom: 40px;
+    right: 744px;
+    margin-right: 4px;
+}
+
+.points__circle2 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #C8DBFB;
+    bottom: 40px;
+    right: 756px;
+    margin-right: 4px;
+}
+
+.points__circle3 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #C8DBFB;
+    bottom: 40px;
+    right: 768px;
+    margin-right: 4px;
 }
 
 
