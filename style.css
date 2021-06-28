@@ -611,12 +611,14 @@
     body { 
         margin: 0;
         min-width: 375px; 
-        max-height: 667px;
+        
     }
 
     .wrapper {
         margin: auto;
         width: 327px;
+        max-height: 667px;
+
     }
 
     .header {
