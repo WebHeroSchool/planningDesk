@@ -573,19 +573,19 @@
         margin: 22px 0 32px 8px;
         font-family: 'PT Serif', arial, helvetica, serif, sans-serif;
         font-weight: bold;
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 40px;
+        line-height: 64px;
         text-align: center;
     }
 
     .main__description {
-        max-width: 255px;
+        max-width: 500px;
         margin: 0 auto;
         margin-bottom: 25px;
         font-family: 'Roboto', arial, helvetica, serif, sans-serif;
         font-weight: 500;
-        font-size: 16px;
-        line-height: 18px;
+        font-size: 24px;
+        line-height: 31px;
         text-align: center;
     }
 
@@ -593,8 +593,8 @@
         display: inline-block;
         font-family: 'Roboto', arial, helvetica, serif, sans-serif;
         font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 22px;
+        line-height: 30px;
         padding: 16px 23px 16px 16px;
         background: #0056EC;
         color: #fff;
@@ -896,8 +896,3 @@
         background-color: #CFD8DC;
     }
 }
-
-
-
-
-
