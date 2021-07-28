@@ -93,7 +93,7 @@
         display: block;
         content: '';
         width: 0;
-        height: 0px;
+        height: 2px;
         background: #0056EC;
         opacity: 0;
         transition: opacity 0.5s, width 0.5s;
@@ -158,11 +158,14 @@
         text-decoration: none;
         border-radius: 4px;
         transition: opacity 0.5s;
+
+        animation: main__button 4s infinite ease-in-out;
     }
     
     .main__button:hover {
         opacity: .5;
     }
+
     
     .points {
         width: 32px;
@@ -170,6 +173,26 @@
         margin: 0 auto;
         padding-top: 14%;
     }
+
+    @keyframes main__button {
+        0% {
+            transform: perspective(800px) rotateY(0deg);
+        }
+
+        25% {
+            background-color:#0056EC;
+            color: #fff;
+        }
+
+        50% {
+            background-color: #0056EC;
+            color: #fff;
+        }
+
+        100% {
+            transform: perspective(800px) rotateY(-360deg);
+        }
+      }
  
 /*device media*/
 
@@ -594,7 +617,7 @@
         display: inline-block;
         font-family: 'Roboto', arial, helvetica, serif, sans-serif;
         font-weight: 500;
-        font-size: 22px;
+        font-size: 21px;
         line-height: 30px;
         padding: 16px 23px 16px 16px;
         background: #0056EC;
