@@ -5,8 +5,8 @@ body {
 .wrapper {
     margin: 0 auto;
     width: 80%;
-} 
-    
+}
+   
 .header {
     display: flex;
     justify-content: space-between;
