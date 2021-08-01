@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'pt_serifitalic';
-  src: url('./fonts/ptserif-italic-webfont.woff') format('woff');
+  src: url('./fonts/ptserif-italic-webfont.woff') format('woff');  
   font-weight: normal;
   font-style: normal;
 }
