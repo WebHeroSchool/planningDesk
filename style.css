@@ -185,9 +185,8 @@ body {
     transform: perspective(800px) rotateY(-360deg);
   }
 }
- 
-/*  device media  */
 
+/*  device media  */
 @media (max-width: 1366px) {
   body {
     margin: 0;
