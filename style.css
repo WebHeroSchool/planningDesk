@@ -1,4 +1,4 @@
-body { 
+body {
   margin: 0;
 }
 
@@ -196,7 +196,7 @@ body {
     margin: 0 auto;
     width: 68%;
   }
-    
+
   .header {
     display: flex;
     justify-content: space-between;
@@ -223,7 +223,7 @@ body {
     font-size: 24px;
     line-height: 31px;
   }
-  
+
   .logo__circle {
     position: absolute;
     top: 49%;
@@ -233,23 +233,23 @@ body {
     border-radius: 50%;
     opacity: 0.7;
   }
-  
+
   .logo__circle_color_dark-blue {
     background: #0056ec;
   }
-  
+
   .logo__circle_color_blue {
     left: 8px;
     top: 52%;
     background: #c8dbfb;
   }
-  
+
   .menu {
     display: flex;
     align-items: center;
     width: 315px;
   }
-  
+
   .menu__item {
     position: relative;
     margin-right: 27px;
@@ -262,11 +262,11 @@ body {
     text-decoration: none;
     transition: opacity 0.5s;
   }
-  
+
   .menu__item:last-child {
     margin-right: 0;
   }
-  
+
   .menu__item_active::after {
     position: absolute;
     display: block;
@@ -274,7 +274,7 @@ body {
     width: 100%;
     background: #0056ec;
   }
-  
+
   .menu__item::after {
     position: absolute;
     display: block;
@@ -283,11 +283,11 @@ body {
     opacity: 0;
     transition: opacity 0.5s, width 0.5s;
   }
-  
+
   .menu__item:hover {
     opacity: 0.5;
   }
-  
+
   .menu__item:hover::after,
   .menu__item_active::after {
     opacity: 1;
@@ -308,11 +308,11 @@ body {
     font-size: 50px;
     line-height: 66px;
   }
-  
+
   .main__title-text_highlight {
     background: linear-gradient(180deg, #fff 15%, #ecf3ff 15%);
   }
-  
+
   .main__description {
     margin: 0 0 41px 0;
     max-width: 367px;
@@ -321,7 +321,7 @@ body {
     font-size: 18px;
     line-height: 21px;
   }
-  
+
   .img {
     position: absolute;
     float: left;
@@ -332,7 +332,7 @@ body {
   .img img {
     max-width: 100%;
   }
-  
+
   .main__button {
     display: inline-block;
     font-family: 'Roboto', arial, helvetica, serif, sans-serif;
@@ -346,11 +346,11 @@ body {
     border-radius: 4px;
     transition: opacity 0.5s;
   }
-  
+
   .main__button:hover {
     opacity: 0.5;
   }
-  
+
   .points {
     width: 32px;
     height: 19px;
@@ -374,7 +374,7 @@ body {
     justify-content: space-between;
     margin-bottom: 80px;
   }
-  
+
   .hamburger-menu {
     display: none;
   }
@@ -405,23 +405,23 @@ body {
     border-radius: 50%;
     opacity: 0.7;
   }
-  
+
   .logo__circle_color_dark-blue {
     background: #0056ec;
   }
-  
+
   .logo__circle_color_blue {
     left: 8px;
     top: 52%;
     background: #c8dbfb;
   }
-  
+
   .menu {
     display: flex;
     align-items: center;
     width: 315px;
   }
-  
+
   .menu__item {
     position: relative;
     margin-right: 27px;
@@ -434,11 +434,11 @@ body {
     text-decoration: none;
     transition: opacity 0.5s;
   }
-  
+
   .menu__item:last-child {
     margin-right: 0;
   }
-  
+
   .menu__item_active::after {
     position: absolute;
     display: block;
@@ -455,7 +455,7 @@ body {
     opacity: 0;
     transition: opacity 0.5s, width 0.5s;
   }
-  
+
   .menu__item:hover {
     opacity: 0.5;
   }
@@ -472,7 +472,7 @@ body {
     background-repeat: no-repeat;
     background-position: top right;
   }
-  
+
   .main__title {
     margin: 0 0 38px 0;
     font-family: 'PT Serif', arial, helvetica, serif, sans-serif;
@@ -480,11 +480,11 @@ body {
     font-size: 50px;
     line-height: 66px;
   }
-  
+
   .main__title-text_highlight {
     background: linear-gradient(180deg, #fff 15%, #ecf3ff 15%);
   }
-  
+
   .main__description {
     margin: 0 0 42px 0;
     max-width: 367px;
@@ -493,7 +493,7 @@ body {
     font-size: 18px;
     line-height: 21px;
   }
-  
+
   .img {
     position: absolute;
     left: 50%;
@@ -502,7 +502,7 @@ body {
   .img img {
     max-width: 100%;
   }
-  
+
   .main__button {
     display: inline-block;
     font-family: 'Roboto', arial, helvetica, serif, sans-serif;
@@ -516,11 +516,11 @@ body {
     border-radius: 4px;
     transition: opacity 0.5s;
   }
-  
+
   .main__button:hover {
     opacity: 0.5;
   }
-    
+  
   .points {
     width: 32px;
     height: 19px;
