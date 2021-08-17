@@ -206,7 +206,7 @@ body {
   .hamburger-menu {
     display: none;
   }
-  
+
   .logo {
     position: relative;
     width: 190px;
@@ -360,7 +360,7 @@ body {
 }
 
 @media (max-width: 1024px) {
-  body { 
+  body {
     margin: 0;
   }
 
